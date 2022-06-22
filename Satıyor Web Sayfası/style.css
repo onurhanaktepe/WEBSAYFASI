@@ -1,0 +1,693 @@
+.js #preloader p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10%;
+    letter-spacing: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    opacity: 0.9;
+    
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu_bar .menu {
+    width: 100%;
+    height: 7vh;
+    background-color: #3F475F;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.menu_bar .menu img{
+    width: 130px;
+    height: 120px;
+    margin-top: -40px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 16px;
+    
+}
+
+.menu ul .İlan {
+    width: 101px;
+    height: 38px;
+    background-color: #393A3B;
+    padding-top: 6px;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+.menu ul .İlan:hover{
+    background-color: #141414;
+    transition: 800ms all;
+}
+
+.menu ul .İlan a:hover{
+    text-decoration: none;
+}
+
+
+.menu a{
+    color: white;
+    font-size: 11px;
+    font-family: 'Dosis', sans-serif;
+    
+}
+.menu i{
+    color: #a7bcfa;;
+    font-size: 15px;
+
+    
+}
+
+.menu a:hover{
+    
+    color: #c7c7c7;;
+}
+
+.menu i:hover{
+    
+    color: #e7e7e7;;
+}
+
+
+
+form.search {
+    display: flex;
+    margin-top: 19px
+}
+form.search input {
+    font-family: 'Dosis', sans-serif;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 9px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 0 15px;
+    flex: 1;
+    outline: 0;
+}
+form.search button {
+    font-family: 'Dosis', sans-serif;
+    height: 20px;
+    padding: 0 30px;
+    background: #393a3b;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 500;
+    border: none;
+}
+
+
+/*--BANNER BÖLÜM --*/
+
+.banner{
+    width: 100%;
+    height: 80vh;
+    margin-top: 12px;
+    
+}
+
+.banner .photo{
+    width: 100%;
+    height: 60vh;
+    
+
+}
+
+.bannercizgi{
+    width: 95%;
+    height: 0.2vh;
+    margin: 0 auto;
+    background: linear-gradient(220deg, rgb(0, 0, 0), grey);
+}
+
+
+
+.banner .font p{
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 47px;
+    font-weight: 450;
+    text-align: center;
+    
+}
+
+.banner .font h1{
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 27px;
+    font-weight: 450;
+    text-align: center;
+}
+
+.banner2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+
+}
+
+.banner2 .abanner{
+    width: 50%;
+    
+}
+
+.banner2 .bbanner{
+    width: 50%;
+}
+
+.bbanner p{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    color: gray;
+}
+
+.bbanner h1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(10, 189, 19, 0.603);
+    font-size: 18px;
+    text-align: center;
+    padding-top: 16px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+}
+
+.bbanner h2{
+    font-size: 19px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    padding-top: 25px;
+    
+
+}
+
+.bbanner h3{
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    padding-bottom: 25px;
+    
+
+}
+.bbanner .a1{
+    display: flex;
+}
+
+.bbanner .a1 h4{
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 128, 0, 0.596);
+    display: flex;
+    margin-right: 15px;
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    padding-top: 13px;
+    padding-left: 12px;
+    border-radius: 4px;
+    transition: 800ms all;
+}
+
+.bbanner .a1 h5{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    padding-right: 150px;
+    padding-top: 14px;
+    transition: 900ms all;
+    cursor: pointer;
+}
+
+
+.bbanner .a1 h4:hover{
+    background:rgb(3, 85, 7);
+    color:white;
+}
+
+.bbanner .a1 h5:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+.altbanner{
+    width: 100%;
+    height: 85vh;
+    background: rgb(77, 143, 77);
+    margin-top: 40px;
+    background-image: url(images/buy-car-desktop.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: 'Dosis', sans-serif;
+}
+
+.altbanner img{
+    padding-left: 30%;
+}
+
+.altbanner p{
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    padding: 40px 40px;
+}
+
+.altbanner h1{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    padding-left:20px;
+    padding-top: 13px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 12px;
+    
+}
+
+.altbanner h2{
+    font-size: 25px;
+    font-weight: 999;
+    color: white;
+    padding-left: 12px;
+
+}
+
+.altbanner h3{
+    font-size: 15px;
+    font-weight: 555;
+    color: white;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 16px;
+
+}
+
+.altanner .a1{
+    display: flex;
+}
+
+.altbanner .a1 h4{
+    width: 14%;
+    height: 46px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    padding-top: 13px;
+    padding-left: 12px;
+    border-radius: 4px;
+    transition: 800ms all;
+    margin-top: 35px;
+    margin-left: 24px;
+}
+
+.altbanner .a1 h5{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    margin-left: -280px;
+    margin-top: -36px;
+    transition: 900ms all;
+    cursor: pointer;
+}
+
+.altbanner .a1 h4:hover{
+    background:rgb(133, 185, 136);
+    color:white;
+}
+
+.altbanner .a1 h5:hover{
+    color: rgb(255, 0, 0);
+}
+
+.title{
+    width: 100%;
+    background: white;
+    margin-top: 96px;
+    
+}
+
+.title h1{
+    text-align: center;
+    margin-top: 55px;
+    font-size: 55px;
+    font-family: 'Dosis', sans-serif;
+    color: green;
+}
+
+.title1{
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid rgb(117, 117, 117);
+    cursor: pointer;
+    
+}
+
+.title1 h1{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 9999px;
+    
+}
+
+.titlebox{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 120px;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 40px;
+    
+    
+}
+
+.titlebox .title5{
+    width: 300px;
+    height: 200px;
+    background:linear-gradient(rgb(161, 218, 159),rgba(209, 209, 209, 0.205));
+    border-radius: 14px;
+    margin-left: 40px;
+    box-shadow: 0px 1px 4px 0px rgb(172, 172, 172);
+}
+
+.title5 h1{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    padding: 24px;
+    font-weight: 800;
+}
+
+.title5 i{
+    color: rgb(0, 0, 0);
+    
+    font-size: 24px;
+    padding: 10px;
+}
+
+.titlebox .title6{
+    width: 300px;
+    height: 200px;
+    background:linear-gradient(rgb(161, 218, 159),rgba(209, 209, 209, 0.205));
+    border-radius: 14px;
+    margin-left: 40px;
+    box-shadow: 0px 1px 4px 0px rgb(172, 172, 172);
+}
+
+.title6 h1{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    padding:0 24px;
+    font-weight: 800;
+}
+
+.title6 i{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    padding: 10px;
+}
+
+.titlebox .title7{
+    width: 300px;
+    height: 200px;
+    background:linear-gradient(rgb(161, 218, 159),rgba(209, 209, 209, 0.205));
+    border-radius: 14px;
+    margin-left: 40px;
+    box-shadow: 0px 1px 4px 0px rgb(172, 172, 172);
+}
+
+.title7 h1{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    padding: 24px;
+    font-weight: 800;
+}
+
+.title5 h2{
+    font-size: 18px;
+    text-align: center;
+    font-weight:777;
+}
+
+.title6 h2{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 19px;
+    font-weight:777;
+}
+
+.title7 h2{
+    font-size: 18px;
+    text-align: center;
+    font-weight:777;
+}
+
+.title7 i{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    padding: 10px;
+}
+
+
+/*--- FOOTER ---*/
+
+
+.footer{
+    width: 100%;
+    height: 60vh;
+    flex-direction: column;
+    background: linear-gradient(rgba(6, 206, 6, 0.562),rgba(0, 0, 0, 0.322));
+    font-family: 'Dosis', sans-serif;
+}
+
+.footer .iclass{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    text-align: center;
+    margin:50px auto;
+}
+
+.footer h1{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 999;
+    padding: 70px 70px 0 0;
+    
+}
+
+.footer h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 999;
+    padding: 15px 15px 0 0;
+    border-bottom: 1px solid rgb(129, 129, 129);
+
+}
+
+.footer .icfooter{
+    width: 100%;
+    height: 30vh;
+    
+}
+
+.icfooter .number{
+    width: 100%;
+}
+
+.icfooter .number i{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+.icfooter .number h3{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 999;
+    text-align: center;
+    padding-top: 45px;
+
+}
+.icfooter .number h4{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: 999;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/*--CONTACT--*/
+
+.contact{
+    width: 100%;
+    height: 40vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contact .con1{
+    width: 21%;
+    
+}
+
+.contact .con2{
+    width: 21%;
+    
+}
+
+.con2 p{
+    font-size: 15px;
+    font-weight: 999;
+    text-align: left;
+    padding-top: 90px;
+}
+
+.con2 h1{
+    font-size: 14px;
+    font-weight: 899;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.contact .con3{
+    width: 21%;
+    
+}
+
+.con3 p{
+    font-size: 15px;
+    font-weight: 999;
+    text-align: left;
+    padding-top: 90px;
+}
+
+.con3 h1{
+    font-size: 14px;
+    font-weight: 899;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.contact .con4{
+    width: 21%;
+    
+}
+
+.con4 p{
+    font-size: 15px;
+    font-weight: 999;
+    text-align: left;
+    padding-top: 90px;
+}
+
+.con4 h1{
+    font-size: 14px;
+    font-weight: 899;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.contact .con5{
+    width: 21%;
+    
+}
+
+.con5 p{
+    font-size: 15px;
+    font-weight: 999;
+    text-align: left;
+    padding-top: 90px;
+}
+
+.con5 h1{
+    font-size: 14px;
+    font-weight: 899;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.contact .con6{
+    width: 21%;
+    
+}
+
+.con6 i{
+    color: rgb(58, 109, 65);
+    font-size: 25px;
+    font-weight: 999;
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 9px;
+}
+
+.con6 i:hover{
+    color: black;
+    transition: 900ms;
+}
+
+
+.copyright{
+    width: 100%;
+    height: 2vh;
+
+}
+
+.copyright h1{
+    font-size: 11px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 999;
+    text-align: center;
+}
+
+
